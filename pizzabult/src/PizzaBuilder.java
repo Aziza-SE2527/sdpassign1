@@ -1,6 +1,6 @@
 public interface PizzaBuilder
 {
-    PizzaBuilder buildDougn();
+    PizzaBuilder buildDough();
     PizzaBuilder buildSauce();
     PizzaBuilder buildTopping();
     Pizza getPizza();
