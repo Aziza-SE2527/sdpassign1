@@ -31,6 +31,10 @@ public class PepperoniBuilder implements PizzaBuilder
     @Override
     public Pizza getPizza()
     {
+        if(pizza.getDough()==null || pizza.getSauce()==null || pizza.getTopping()==null)
+        {
+            throw  new IllegalArgumentException("Wrong ingredient or order");
+        }
         return this.pizza;
     }
 }
