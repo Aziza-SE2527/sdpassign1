@@ -15,6 +15,23 @@ public class Pizza
     {
         this.topping = topping;
     }
+
+    public String getDough()
+    {
+        return this.dough;
+    }
+
+    public String getSauce()
+    {
+        return sauce;
+    }
+
+    public String getTopping()
+    {
+        return topping;
+    }
+
+
     @Override
     public String toString()
     {
